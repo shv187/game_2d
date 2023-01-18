@@ -3,7 +3,7 @@ workspace "golf"
     configurations { "Debug", "Release" }
     
 project "golf"  
-    kind "ConsoleApp"
+    kind "WindowedApp"
     language "C++"   
     cppdialect "C++latest"
     architecture "x86_64"

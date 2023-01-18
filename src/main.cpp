@@ -1,6 +1,8 @@
 #include "engine/game.h"
 
-int main()
+#include <windows.h>
+
+int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
 {
     Game::Configuration config{};
     config.name = "Game";
