@@ -1,8 +1,8 @@
 -- premake5.lua
-workspace "golf"
+workspace "game_2d"
     configurations { "Debug", "Release" }
     
-project "golf"  
+project "game_2d"  
     kind "WindowedApp"
     language "C++"   
     cppdialect "C++latest"
